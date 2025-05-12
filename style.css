@@ -1,0 +1,45 @@
+/* Встановлює стиль для тіла сторінки */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+    background: linear-gradient(135deg, #ed9e6d, #2d21b0); 
+    color: rgb(247, 248, 253);
+  }
+  /* Стилізація блоку з таймером */
+  #countdown {
+    background: rgba(0, 0, 0, 0.7); 
+    padding: 5px 30px; 
+    border-radius: 15px; 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center; 
+  }
+  /* Стиль для самого таймера */
+  #timer {
+    font-size: 3rem; 
+    letter-spacing: 3px; 
+  }
+  /* Стиль для одиниць виміру часу (дні, години, хвилини) */
+  .timer-unit {
+    font-size: 1.9rem;  
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+    margin-top: 14px;  
+    display: outside; 
+      
+  }
+  /* Адаптація стилів для маленьких екранів (ширина менше 600px) */
+  @media (max-width: 600px) {
+    #timer {
+        font-size: 2rem; 
+    }
+    .timer-unit {
+        font-size: 1rem;
+    }
+  }
+ 
+
+  
